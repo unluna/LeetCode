@@ -1,14 +1,7 @@
-# LeetCode
-刷算法呀
+# LeetCode + 数据结构学习
 
+## 数据结构篇
 
-git checkout master
-git pull
-
-git diff  /  git static
-
-git merge baishiyu
-
-git push
-
-李俊虎 ++ -- 5￥
+- 2020-04-26 列表
+- 2020-04-27 栈
+    - 李俊虎 ++ -- 5￥
