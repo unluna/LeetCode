@@ -16,6 +16,7 @@ class LinkedList {
     constructor() {
         this.count = 0;
         this.head = undefined;
+        this.snail = undefined;
     }
 
     /*
@@ -135,6 +136,7 @@ myList.push(22);
 
 
 //148-排序链表
+//https://leetcode-cn.com/problems/sort-list/
 const sortList = function (head) {
     const dummy = new Node();
     dummy.next = head;
@@ -154,6 +156,7 @@ const sortList = function (head) {
 
 const merge = function (leftList, rightList) {
     const dummy = new Node();
+    //dummy-> 13 24
     dummy.next = leftList;
     let lNode = dummy;
     let rNode = rightList;
@@ -169,5 +172,5 @@ const merge = function (leftList, rightList) {
     }
     return dummy.next
 };
-sortList(myList.head);
+console.log(sortList(myList.head));
 console.log(myList.toString());
