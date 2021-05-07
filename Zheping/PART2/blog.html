@@ -2,118 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <style>
-    h1 {
-      /* 在此开始代码 */
-      color:#188eee;
-      font-size:36px;
-      width:650px;
-      margin-left:30px;
-      margin-bottom:30px;
-      margin-top: 30px;
-      line-height:2em;
-    }
-    h2{
-      font-size: 24px;
-      line-height: 2em;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    p{
-      font-size: 16px;
-      line-height: 1.8em;
-      text-indent: 2em;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    hr{
-      color: #188eee;
-    }
-    a:hover{
-      color:#188eee;
-    }
-
-    input:hover{color:#147de2}
-    .backgroung_image{
-      background: url("http://coding.imweb.io/img/project/blog/bg.jpg") no-repeat;
-      background-position: right bottom;
-    }
-    .cut_off_rule{
-      background: linear-gradient(to right,#999,#f5f5f5);
-      height: 1px;
-    }
-    .list{
-      margin-right: 10px;
-      counter-reset: my-item;
-    }
-    .list .list_item::before{
-      counter-increment: my-item;
-      content: counter(my-item) "/" ;
-      font-family: monospace;
-      color: #999;
-    }
-    .image_item{
-      border: 1px;
-      padding: 5px;
-      margin-bottom: 10px;
-    }
-    .comment_area{
-      margin-top: 50px;
-      border-top: 3px;
-      padding-top: 30px;
-    }
-    .comment_area .comment_textarea{
-      padding: 5px;
-      border: #dbdbdb;
-      border-radius:5px;
-    }
-    .comment_area .comment_textarea:hover{
-      border:#ccc;
-      box-shadow:0 0 5px;
-    }
-    .comment_area .comment_button{
-      color: #188eee;
-      margin-bottom: 20px;
-    }
-    .comment_area .comment_content{
-      background: #f5f5f5;
-      margin-bottom: 10px;
-      margin-top: 0px;
-    }
-    .comment_area .comment_content:hover{
-      box-shadow:0 0 5px;
-    }
-    .comment_area .comment_content_name{
-      font-size: 12px;
-    }
-    .comment_area .comment_content_item{
-      font-size: 14px;
-      padding: 5px;
-    }
-    .comment_area .comment_content_datetime{
-      font-size: 12px;
-    }
-    .comment_area .comment_content_sub{
-
-    }
-
-  </style>
   <title>tour</title>
+  <link rel="stylesheet" href="blog-style.css">
 </head>
 <body>
-<div class="backgroung_image">
+<div class="background">
   <h1>“华丽的冒险”之美国⻄部游——day 4</h1>
-  <hr/>
   <h2>行程安排</h2>
-  <div class="cut_off_rule"></div>
+  <div class="cut-off-rule1"></div>
   <ol class="list">
-    <ul class="list_item">8:00-8:30,早餐</ul>
-    <ul class="list_item">10:00-12:00，蒙特雷海滩</ul>
-    <ul class="list_item">15:00-17:00，17mile</ul>
-    <ul class="list_item">18:00，酒店</ul>
+    <li class="list-item">8:00-8:30,早餐</li>
+    <li class="list-item">10:00-12:00，蒙特雷海滩</li>
+    <li class="list-item">15:00-17:00，17mile</li>
+    <li class="list-item">18:00，酒店</li>
   </ol>
   <h2>具体行程</h2>
-  <div class="cut_off_rule"></div>
+  <div class="cut-off-rule1"></div>
   <p>
     ⼀⼤早，吃了点早餐，我们驱⻋前往蒙特雷海滩，加州的阳光真的很神奇，可以
     让所有景⾊都变得熠熠⽣辉，抹上⼀层美丽的⾊彩。那天早上，海滩边上很多
@@ -143,15 +47,15 @@
     因为稀有所以珍贵，海⻦远远地栖息在礁⽯上，海鸥⾃由掠过湛蓝的天际，我们也贪婪地享受着这样的惬意，度过了美好的下午……
   </p>
   <h2>最美瞬间</h2>
-  <div class="cut_off_rule"></div>
-  <div class="image_item">
+  <div class="cut-off-rule1"></div>
+  <div class="image-item">
     <img src="./1.png" alt=“面朝大海”>
   </div>
-  <div class="image_item">
+  <div class="image-item">
     <img src="./2.png" alt=“晚霞漫天”>
   </div>
   <h2>完美总结</h2>
-  <div class="cut_off_rule"></div>
+  <div class="cut-off-rule1"></div>
   <p>
     这天，对我来说就像经历了⼀场真实⼜遥远的梦，如今⼤梦初醒，回到正常的⽣活轨道，留下值得回味的余温，收藏在⼼⾥，慢慢咀嚼，不知不觉中，在时光⾥
     慢慢发酵，带着它奔向下⼀个梦境。
@@ -161,41 +65,41 @@
     <a href="https://ke.qq.com/course/list?mt=1003&st=2020&tt=3111" target="_blank">英语口语</a>
 
   </p>
-  <hr/>
-  <div class="comment_area">
-    <div><textarea class="comment_textarea" placeholder="请填写你的评论"></textarea></div>
-    <div><input class="comment_button" type="button" value="评论一下" name="comment" ></div>
-    <div class="comment_content">
+  <div class="cut-off-rule2"></div>
+  <div class="comment-area">
+    <textarea class="comment-textarea" placeholder="请填写你的评论"></textarea>
+    <div><input class="comment-button" type="submit" value="评论一下" ></div>
+    <div class="comment-content">
       <div>
-        <span class="comment_content_datetime">2017-04-20 10:19</span>
-        <span class="comment_content_name">子墨</span>
+        <span class="comment-content-datetime">2017-04-20 10:19</span>
+        <span class="comment-content-name">子墨</span>
       </div>
-      <div class="comment_content_item">楼主好文采</div>
+      <div class="comment-content-item">楼主好文采</div>
       <div>
-        <span><a class="comment_content_sub" href="#" style="cursor:hand">点赞</a></span>
-        <span><a class="comment_content_sub" href="#" style="cursor:hand">评论</a></span>
-      </div>
-    </div>
-    <div class="comment_content">
-      <div>
-        <span class="comment_content_datetime">2017-04-20 10:19</span>
-        <span class="comment_content_name">晶晶</span>
-      </div>
-      <div class="comment_content_item">楼主好文采</div>
-      <div>
-        <span><a class="comment_content_sub" href="#" style="cursor:hand">点赞</a></span>
-        <span><a class="comment_content_sub" href="#" style="cursor:hand">评论</a></span>
+        <span><a class="comment-content-sub" href="#" >点赞</a></span>
+        <span><a class="comment-content-sub" href="#" >评论</a></span>
       </div>
     </div>
-    <div class="comment_content">
+    <div class="comment-content">
       <div>
-        <span class="comment_content_datetime">2017-04-20 10:19</span>
-        <span class="comment_content_name">心向</span>
+        <span class="comment-content-datetime">2017-04-20 10:19</span>
+        <span class="comment-content-name">晶晶</span>
       </div>
-      <div class="comment_content_item">楼主好文采</div>
+      <div class="comment-content-item">好地方，我也要去</div>
       <div>
-        <span><a class="comment_content_sub" href="#" style="cursor:hand">点赞</a></span>
-        <span><a class="comment_content_sub" href="#" style="cursor:hand">评论</a></span>
+        <span><a class="comment-content-sub" href="#" >点赞</a></span>
+        <span><a class="comment-content-sub" href="#" >评论</a></span>
+      </div>
+    </div>
+    <div class="comment-content">
+      <div>
+        <span class="comment-content-datetime">2017-04-20 10:19</span>
+        <span class="comment-content-name">心向</span>
+      </div>
+      <div class="comment-content-item">求多图</div>
+      <div>
+        <span><a class="comment-content-sub" href="#" >点赞</a></span>
+        <span><a class="comment-content-sub" href="#" >评论</a></span>
       </div>
     </div>
   </div>
