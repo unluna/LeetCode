@@ -21,11 +21,15 @@
 // p()
 // // 40 30 20 50 30 50 30
 // // go()一遍之后，this.a就写进去了
-// document
+
 
 function go() {
 	console.log(this.a);
 	this.a = 30;
 }
+
+const asd = new go()
+
+
 go() // un
-go() // 30
+// go() // 30
